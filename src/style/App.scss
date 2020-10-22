@@ -1,0 +1,75 @@
+$primary: #81a6aa;
+$table-row--primary: #d5dcdd;
+$table-row--secondary: #f0f4f5;
+$btn-clr--primary: #364f6b;
+$btn-clr--hover: #2e435a;
+$white: #fafafa;
+
+.app {
+	margin-top: 10em;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-display {
+	margin-bottom: 2em;
+}
+
+form {
+	width: 50em;
+	background: $primary;
+	padding: 2em;
+	border-radius: 1em;
+	box-shadow: 0 0 1em rgba($color: #000000, $alpha: 0.3);
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	button {
+		padding: 0.5em 2em;
+		border-radius: 2em;
+		background: $btn-clr--primary;
+		color: $white;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background: $btn-clr--hover;
+		}
+	}
+}
+
+.form-controler {
+	display: flex;
+	flex-direction: column;
+
+	label {
+		font-size: 1.3rem;
+		font-weight: 500;
+	}
+
+	input {
+		padding: 0.5em;
+		border-radius: 0.5em;
+	}
+}
+
+table {
+	width: 50em;
+	font-size: 1.6rem;
+	th {
+		background: $primary;
+		padding: 0.5em;
+	}
+	tr {
+		text-align: center;
+		background: $table-row--secondary;
+	}
+	tr:nth-child(2n - 1) {
+		background: $table-row--primary;
+	}
+}

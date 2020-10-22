@@ -1,0 +1,87 @@
+.app {
+  margin-top: 10em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-display {
+  margin-bottom: 2em;
+}
+
+form {
+  width: 50em;
+  background: #81a6aa;
+  padding: 2em;
+  border-radius: 1em;
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+form h1 {
+  font-size: 2rem;
+}
+
+form button {
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  background: #364f6b;
+  color: #fafafa;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background: #2e435a;
+}
+
+.form-controler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-controler label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.form-controler input {
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+table {
+  width: 50em;
+  font-size: 1.6rem;
+}
+
+table th {
+  background: #81a6aa;
+  padding: 0.5em;
+}
+
+table tr {
+  text-align: center;
+  background: #f0f4f5;
+}
+
+table tr:nth-child(2n - 1) {
+  background: #d5dcdd;
+}

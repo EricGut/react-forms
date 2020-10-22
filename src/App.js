@@ -33,15 +33,15 @@ function App() {
           <div className="form-display">
             <form onSubmit={handleSubmit}>
               <h1>Add a new user</h1>
-              <div className="form-controler">
+              <div className="input-controler">
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" value={person.name} onChange={handleChange} />
               </div>
-              <div className="form-controler">
+              <div className="input-controler">
                 <label htmlFor="lastName">Last name</label>
                 <input type="text" name="lastName" id="lastName" value={person.lastName} onChange={handleChange} />
               </div>
-              <div className="form-controler">
+              <div className="input-controler">
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email" id="email" value={person.email} onChange={handleChange} />
               </div>

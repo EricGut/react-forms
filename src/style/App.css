@@ -47,7 +47,7 @@ form button:hover {
   background: #2e435a;
 }
 
-.form-controler {
+.input-controler {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,12 +57,12 @@ form button:hover {
           flex-direction: column;
 }
 
-.form-controler label {
+.input-controler label {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-.form-controler input {
+.input-controler input {
   padding: 0.5em;
   border-radius: 0.5em;
 }
